@@ -124,4 +124,13 @@ footer {
     padding: 15px;
     border: double;
 }
-
+#button{
+    background-color: #10aaa2;
+    border: 2px solid brown;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
