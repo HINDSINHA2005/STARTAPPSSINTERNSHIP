@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+#nav {
+    background-color: rgb(143, 71, 71);
+    padding: 15px ;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#nav li {
+    list-style: none;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #ffd700;
+    font-size: 18px;
+    
+}
+
+#nav a:hover {
+    color: white;
+}
+
+
+#head {
+    background-color: rgb(178, 182, 143);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#head h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#head img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    margin: 15px 0;
+}
+
+#head p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section {
+    padding: 40px 60px;
+    border: double;
+}
+
+#about {
+    background-color: burlywood;
+}
+#about:hover{
+    background-color: darkseagreen;
+}
+#projects {
+    background-color: rgb(230, 214, 154);
+}
+
+
+#contact {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 900px;
+    
+}
+
+article:hover {
+   background-color: aqua;
+}
+
+article h3 {
+    color: #8f4747;
+}
+
+article h4 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: gold;
+    text-align: center;
+    padding: 15px;
+    border: double;
+}
+
