@@ -1,0 +1,211 @@
+Today Coding Question 
+
+Q1. (a) Reverse a String (Without JS Function)
+
+function reverseString(str) {
+  let reversed = "";
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed = reversed + str[i];
+  }
+
+  return reversed;
+}
+
+console.log(reverseString("Interview")); // weivretnI
+
+
+Q1. (b) Reverse a String (With JS function)
+
+function reverseStringJS(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseStringJS("Interview")); // weivretnI
+
+
+Q2. (a) Reverse a Number (WITHOUT using JS string functions)
+
+function reverseNumber(num) {
+  let reversed = 0;
+
+  while (num > 0) {
+    let digit = num % 10;
+    reversed = reversed * 10 + digit;
+    num = Math.floor(num / 10);
+  }
+
+  return reversed;
+}
+
+console.log(reverseNumber(12345)); // 54321
+
+
+Q2.(b) Reverse a Number (WITH using JS  functions)
+
+function reverseNumberJS(num) {
+  return Number(num.toString().split('').reverse().join(''));
+}
+
+console.log(reverseNumberJS(12345)); // 54321
+
+
+
+
+
+
+Count vowels in a string
+
+function countVowels(str) {
+  let vowels = ['a','e','i','o','u'];
+  let count = 0;
+
+  for (let ch of str.toLowerCase()) {
+    if (vowels.includes(ch)) count++;
+  }
+  return count;
+}
+
+console.log(countVowels("Hello")); // 2
+
+
+Remove whitespace
+
+function removeSpace(str) {
+  return str.replace(/\s+/g, '');
+}
+
+console.log(removeSpace("He ll o")); // Hello
+
+
+Palindrome check
+
+function isPalindrome(str) {
+  let rev = str.split('').reverse().join('');
+  return str === rev;
+}
+
+console.log(isPalindrome("madam")); // true
+
+
+Largest number in array
+
+function largestNumber(arr) {
+  return Math.max(...arr);
+}
+
+console.log(largestNumber([2,4,6,9,3])); // 9
+
+
+Factorial
+
+function factorial(n) {
+  let fact = 1;
+  for (let i = 1; i <= n; i++) {
+    fact *= i;
+  }
+  return fact;
+}
+
+console.log(factorial(5)); // 120
+
+
+Prime number
+
+function isPrime(num) {
+  if (num <= 1) return false;
+
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+
+console.log(isPrime(7)); // true
+
+
+Fibonacci (single number)
+function fibonacci(n) {
+  if (n === 0) return 0;
+  if (n === 1) return 1;
+
+  let a = 0, b = 1;
+  for (let i = 2; i <= n; i++) {
+    let temp = a + b;
+    a = b;
+    b = temp;
+  }
+  return b;
+}
+
+console.log(fibonacci(6)); // 8
+
+Fibonacci Series
+
+(0, 1, 1, 2, 3, 5, 8, 13 …)
+
+function fibonacciSeriesJS(n) {
+  let fib = [0, 1];
+
+  for (let i = 2; i < n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+
+  return fib;
+}
+
+console.log(fibonacciSeriesJS(7));
+
+
+
+
+
+
+Today Coding Question
+
+1. Frequency of elements
+function frequency(arr) {
+  let freq = {};
+  for (let num of arr) {
+    freq[num] = (freq[num] || 0) + 1;
+  }
+  return freq;
+}
+
+console.log(frequency([1,2,2,3,3,3]));
+
+
+2.Remove duplicates
+
+function removeDuplicate(arr) {
+  return [...new Set(arr)];
+}
+
+console.log(removeDuplicate([1,2,2,3,3]));
+
+
+3.Find duplicate elements
+
+function findDuplicate(arr) {
+  let seen = {};
+  let dup = [];
+
+  for (let num of arr) {
+    seen[num] = (seen[num] || 0) + 1;
+    if (seen[num] === 2) dup.push(num);
+  }
+  return dup;
+}
+
+console.log(findDuplicate([1,2,3,1,5,5]));
+
+
+4.Anagram
+
+function isAnagram(str1, str2) {
+  let s1 = str1.split('').sort().join('');
+  let s2 = str2.split('').sort().join('');
+  return s1 === s2;
+}
+
+console.log(isAnagram("listen","silent")); // true
