@@ -1,0 +1,137 @@
+ARRAY (सबसे ज़्यादा पूछे जाते हैं)
+
+Sum of array elements
+
+Find maximum / minimum
+
+Find second largest
+
+Reverse an array
+
+Remove duplicates
+
+Find duplicate element
+
+Count frequency of elements
+
+Move all zeros to end
+
+Rotate array by k
+
+Check if array is sorted
+
+Merge two sorted arrays
+
+Find missing number
+
+Find all pairs with given sum
+
+Two Sum problem
+
+Subarray sum equals K
+
+Maximum subarray sum
+
+Longest increasing subarray
+
+Split array into chunks
+
+Flatten array (1 level)
+
+Flatten array (deep)
+
+🔹 STRING (EASY + TRICKY)
+
+Reverse a string
+
+Check palindrome
+
+Count vowels
+
+Count character frequency
+
+First non-repeating character
+
+Check anagram
+
+Reverse words in string
+
+Capitalize first letter of each word
+
+Count words in sentence
+
+Remove special characters
+
+Longest word in sentence
+
+Check string rotation
+
+Find substring occurrences
+
+Remove duplicate characters
+
+Replace spaces with -
+
+🔹 OBJECT (🔥 VERY IMPORTANT FOR JS)
+
+Check if key exists in object
+
+Check nested object path exists ✅
+
+Count total keys in object
+
+Merge two objects
+
+Remove a key from object
+
+Convert object to array
+
+Convert array to object
+
+Flatten nested object
+
+Deep copy vs shallow copy
+
+Compare two objects
+
+Find key by value
+
+Loop through nested object
+
+🔹 MAP / SET / FREQUENCY
+
+Count frequency using object
+
+Count frequency using Map
+
+Find most frequent element
+
+Find least frequent element
+
+Check duplicates using Set
+
+Remove duplicates using Set
+
+🔹 LOGIC / THINKING (INTERVIEW FAV 🔥)
+
+Form the largest number from array
+
+Check prime number
+
+Fibonacci series
+
+Factorial of number
+
+Power of number
+
+Swap two numbers without temp
+
+Find GCD / HCF
+
+Check Armstrong number
+
+Check perfect number
+
+Sum of digits
+
+Reverse a number
